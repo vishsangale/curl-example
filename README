@@ -1,0 +1,9 @@
+Simple example to test thread safety of CURL using thread sanitizer.
+
+Commands
+
+conan install . --install-folder=/home/vsangale/workspace/curl-example/build --profile linux_clang --build=missing
+
+conan build . --source-folder=/home/vsangele/workspace/curl-example/ --build-folder=/home/vsangale/workspace/curl-example/build
+
+./build/TestSanitizer
