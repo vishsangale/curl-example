@@ -13,4 +13,3 @@ class CurlTest(conans.ConanFile):
         cmake = conans.CMake(self)
         cmake.configure(source_folder=".")
         cmake.build()
-
